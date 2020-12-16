@@ -1,0 +1,579 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+/*------------------------------------*/
+/*layout*/
+
+#conteiner{
+  padding: 0px;
+  margin: 0px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	min-width: 720px;
+
+}
+/*------------------------------------*/
+/*cabeçalho*/
+.logo{
+
+	float: left;
+}
+#cabecalho{
+
+	width: 100%;
+	height: 27%;
+	background:#fefd02;
+	text-align: center;
+	line-height: 200px;
+   
+}
+
+img.logo{
+	
+	width: 9%;
+
+}
+img.logo1{
+ left: 10%;
+
+  margin-right: 10%;
+	width: 130px;
+
+}
+/*------------------------------------*/
+/*Menu*/
+.menu{
+	
+	float: left;
+  font-weight: lighter;
+	text-align: center;
+	font-size: 150%;
+  font-family: fantasy;
+  margin-bottom: 35px;
+  
+}
+
+.menu a{
+
+    color: black;
+
+	text-decoration: unset;
+	padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 15%;
+
+}
+.links-menu{
+
+ color: teal;
+}
+.menu a:hover{
+    color: white;
+	background-color:#e6e600;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+a:active{
+  color: teal;  
+}
+
+#atual{
+   
+	color: white;
+	background-color:#e6e600;
+
+}
+
+img.carrinho{
+
+	width: 2%;
+
+}
+
+img.casa{
+
+	width: 2%;
+}
+img.casa2{
+
+	width: 2%;
+}
+/*------------------------------------*/
+/*Conteudo  #efefef; */
+
+#conteudo{
+   
+  width: 100%;
+  background-color: black;
+  background-image: url("imagens/ImPrincipal.jpg");
+  background-repeat: no-repeat;
+}
+
+#conteudo-principal{
+  
+  margin-left: 7.5%;
+  width: 85%;
+  background-color: white;
+}
+
+
+.info2{
+  font-size: 25px;
+ font-style: italic;
+ float:right;
+ margin-top: 0;
+margin-left: 50%;
+text-align: center;
+color: rgb(0, 0, 0);
+}
+.textquemsomos{
+margin-top: -180px;
+margin-right: 10%;
+position: relative;
+}
+.game{
+   
+  padding-left: 3%;
+  width: 20%;
+  padding-bottom: 5%;
+  
+}
+
+
+
+/*------------------------------------*/
+/*Rodapé*/
+
+#rodape{
+  
+  height: 25%;
+	clear: both;
+	background: #fff;
+	padding: 5px;
+
+}
+
+img.rd{
+	width: 4%;
+	float: left;
+  padding: 1%;
+  margin-left: 3%;
+}
+
+
+.pg{
+
+	width: 25%;
+	float: right;
+}
+
+.seguro{
+
+	width: 35%;
+	padding-left: 19%;
+
+}
+/*********************************/
+/*Cadastrar*/
+
+h1{
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.enviar{
+     
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+.enviar a{
+  background-color: #e60000;
+  width: 5%;
+  margin: 1%;
+  padding: 0.3% 10%;
+  font-size: 150%;
+ 
+  text-decoration: unset;
+  color: #fff;
+}
+.registerbtn {
+  background-color: #30b435;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.cadastrar .corpo{
+
+     width: 85%;
+    
+     margin-left: 7.5%;
+
+}
+/***********************/
+/*Carrinho CyperPunk*/
+.carrinhos{
+  width: 100%;
+}
+.carrinhos h2{
+
+  text-align: center;
+}
+.outros{
+
+  
+   clear: both;
+     width: 100%;
+}
+.side{
+    width: 18%;
+     
+    float: right;
+    margin-right: 2%;
+}
+.side2{
+  width: 18%;
+  
+   float: right;
+   margin-right: 22%;
+}
+.side3{
+  width: 18%;
+  
+   margin-left: 2%;
+}
+.pre1{
+
+    margin-top: 2%;
+    margin-left: 1%;
+    font-weight: bold;
+
+}
+
+.ot{
+   margin-left: 1%;
+   width: 100%;
+}
+.carrinhos .val{
+  float: right;
+  margin-right: 14%;
+
+}
+
+.carrinhos .val2{
+  float: left;
+  margin-left: 4%;
+  
+  
+  
+}
+
+.outros button{
+  width: 100%;
+  padding: 1% 4.5%;
+  margin: 1%;
+  background-color: chartreuse;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.CyberGame2{
+  
+  float: left;
+  width: 10%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.prd{
+ 
+  background-color: #008ae6;
+  width: 55%;
+  float: left;
+  margin-left: 5%;
+  padding: 0.5% 0;
+}
+.prc{
+  float: left;
+  background-color:#008ae6;
+  width: 33%;
+  margin-left: 2%;
+  margin-right: 5%;
+  padding: 0.5% 0;
+}
+
+.prd p{
+  color: #fff;
+  font-size: 150%;
+  margin-left: 47%;
+}
+
+.prc p{
+  color: #fff;
+  font-size: 150%;
+  margin-left: 41%;
+}
+.retira{
+   
+  float: right;
+  width: 2%;
+  cursor: pointer;
+  margin-right: 2%;
+
+}
+#a11,
+#a12,
+#a13,
+#a14{
+  clear: both;
+  padding-bottom: 15%;
+  
+}
+.carrinhos h2{
+  clear: both;
+  margin-top: 10%;
+}
+/***********************/
+/*CiberPunk*/
+
+
+
+.venda{
+
+  float: right;
+  width: 35%;
+  height: 50%;
+  padding-bottom: 20%;
+
+}
+
+
+
+.pr{
+
+	padding-bottom: 10px;
+
+}
+
+.precoO{
+     
+	text-decoration: line-through;
+	text-align: center;
+	font-weight: bold;
+  color:#bfbfbf;
+  font-size: 150%;
+  
+  }
+
+.preco{
+
+    font-size: 200%;
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+#seta{
+     
+    width: 4%;
+    margin-left: 47%;
+}
+
+.eco{
+
+  color: #3bb300;
+ 
+}
+
+.frete{
+	 
+	
+	color: #ff8000;
+
+   
+}
+
+.frete p{
+
+	background-color: #000;
+	width: 80%;
+	height: 5%;
+	padding-top: 1%;
+  padding: 5%;
+
+
+}
+
+.f2{
+
+  float: left;
+
+}
+
+.comprar{
+  border: dotted 3px red;
+  border: 0px;
+
+	background-color: rgb(64, 205, 40);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px;
+	text-transform: none;
+  cursor: pointer;
+
+  margin-right: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 130%;
+  text-align: center;
+
+}
+
+.ciper2 a{
+  cursor: pointer;
+  color: #fff;
+  text-decoration: unset;
+
+
+}
+
+.ciper2 a:hover{
+     cursor: pointer;
+     padding: 1%;
+}
+/*---------------------------------*/
+/*Carrocel*/
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  box-sizing: border-box;
+  max-width: 65%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 4px 0;
+  user-select: none;
+}
+
+.next {
+  right: 30.45%;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.cadastro{
+  padding-left: 20px;
+padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+  text-align: center;
+}
+
+.cadastro1{
+  margin-left: 0.7%;
+ margin-right: 4%;
+ text-align: center;
+  display: table-cell;
+float: left;
+}
+.ender{
+  margin-right: 4%;
+display: table-cell;
+float: left;
+text-align: center;
+}
+.login{
+  text-align: center;
+  margin-right: 10px;
+  display: table-cell;
+  float: left;
+  }
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/****************************************************/
+/*Formulario*/
+

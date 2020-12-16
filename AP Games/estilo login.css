@@ -1,0 +1,516 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.corpo{
+  font-size: 14px;
+}
+/*------------------------------------*/
+/*layout*/
+
+#conteiner{
+  
+  padding: 0px;
+  margin: 0px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	min-width: 720px;
+
+}
+/*------------------------------------*/
+/*cabeçalho*/
+.logo{
+
+	float: left;
+}
+#cabecalho{
+
+	width: 100%;
+	height: 27%;
+	background:#fefd02;
+	text-align: center;
+	line-height: 200px;
+   
+}
+
+img.logo{
+	
+
+	width: 9%;
+
+}
+
+/*------------------------------------*/
+/*Menu*/
+.menu{
+	
+	float: left;
+    font-weight: lighter;
+	text-align: center;
+	font-size: 150%;
+  font-family: fantasy;
+  margin-bottom: 35px;
+  
+}
+
+.menu a{
+
+    color: black;
+
+	text-decoration: unset;
+	padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 15%;
+
+}
+
+.menu a:hover{
+    color: white;
+	background-color:#e6e600;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+a:active{
+    color: teal;
+}
+
+#atual{
+   
+	color: white;
+	background-color:#e6e600;
+
+}
+
+img.carrinho{
+
+	width: 2%;
+
+}
+
+img.casa{
+
+	width: 2%;
+}
+
+/*------------------------------------*/
+/*Conteudo*/
+
+#conteudo{
+   
+  width: 100%;
+  background-color: #efefef;
+  
+}
+
+#conteudo-principal{
+  
+  margin-left: 7.5%;
+  width: 85%;
+  background-color: white;
+}
+
+
+
+
+.game{
+   
+  padding-left: 3%;
+  width: 20%;
+	padding-bottom: 5%;
+}
+
+
+
+/*------------------------------------*/
+/*Rodapé*/
+
+#rodape{
+  
+  height: 25%;
+	clear: both;
+	background: #fff;
+	padding: 5px;
+
+}
+
+img.rd{
+
+	width: 4%;
+	float: left;
+	padding: 1%;
+}
+
+
+.pg{
+
+	width: 25%;
+	float: right;
+}
+
+.seguro{
+
+	width: 40%;
+	padding-left: 25%;
+
+}
+/*********************************/
+/*Cadastrar*/
+
+h1{
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.enviar{
+     
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+.enviar a{
+  background-color: #e60000;
+  width: 5%;
+  margin: 1%;
+  padding: 0.3% 10%;
+  font-size: 150%;
+ 
+  text-decoration: unset;
+  color: #fff;
+}
+
+.cadastrar .corpo{
+
+     width: 50%;
+    
+     margin-left: 25%;
+
+}
+
+/***********************/
+/*CiberPunk*/
+
+
+
+.venda{
+
+  float: right;
+  width: 35%;
+  height: 50%;
+  padding-bottom: 20%;
+
+}
+
+
+
+.pr{
+
+	padding-bottom: 10px;
+
+}
+
+.precoO{
+     
+	text-decoration: line-through;
+	text-align: center;
+	font-weight: bold;
+  color:#bfbfbf;
+  font-size: 150%;
+  
+  }
+
+.preco{
+
+    font-size: 200%;
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+#seta{
+     
+    width: 4%;
+    margin-left: 47%;
+}
+
+.eco{
+
+  color: #3bb300;
+ 
+}
+
+.frete{
+	 
+	
+	color: #ff8000;
+
+   
+}
+
+.frete p{
+
+	background-color: #000;
+	width: 80%;
+	height: 5%;
+	padding-top: 1%;
+  padding: 5%;
+
+
+}
+
+.f2{
+
+  float: left;
+
+}
+
+.comprar{
+
+  border: 0px;
+	padding: 0px;
+	background-color: rgb(64, 205, 40);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px;
+	text-transform: none;
+  cursor: pointer;
+  margin-left: 0%;
+  margin-right: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 130%;
+  text-align: center;
+
+}
+
+.comprar a{
+
+  color: #fff;
+  text-decoration: unset;
+
+
+}
+
+.comprar a:hover{
+     padding: 1%;
+}
+/*---------------------------------*/
+/*Carrocel*/
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  box-sizing: border-box;
+  max-width: 65%;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/****************************************************/
+/*Formulario*/
+
+
+.container {
+ 
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+
+.hide-md-lg {
+  display: none;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .vl {
+    display: none;
+  }
+ 
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
